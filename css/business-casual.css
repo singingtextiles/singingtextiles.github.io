@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background-image: linear-gradient(rgba(22, 33, 65, 0.65), rgba(22, 33, 65, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #f8f9fa;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -89,7 +89,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #f8f9fa;
 }
 
 @media (min-width: 992px) {
@@ -100,7 +100,7 @@ p {
     color: rgba(22, 33, 65, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #f8f9fa;
   }
 }
 
@@ -229,11 +229,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #f8f9fa !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #f8f9fa !important;
 }
 
 .btn {
@@ -241,8 +241,8 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
