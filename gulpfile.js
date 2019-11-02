@@ -37,7 +37,7 @@ function browserSync(done) {
 
 // BrowserSync reload
 function browserSyncReload(done) {
-  browsersync.reload();
+  browsersync.reload(); 
   done();
 }
 
