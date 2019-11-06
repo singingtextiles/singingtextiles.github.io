@@ -94,11 +94,12 @@ p {
 
 
 .carousel{
+	position: relative;
     background: #2f4357;
     margin-top: 20px;
 }
 .carousel-item{
-	 left: 0;
+	
     width: 60%;
     text-align: center;
     min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
