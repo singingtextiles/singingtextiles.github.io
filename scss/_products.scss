@@ -1,3 +1,14 @@
+.carousel-item {
+  position: relative;
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .product-item {
   @media (min-width: 992px) {
     .product-item-title {
