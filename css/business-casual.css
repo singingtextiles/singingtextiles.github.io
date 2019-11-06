@@ -99,11 +99,10 @@ p {
     margin-top: 20px;
 }
 .carousel-item{
-	
-    width: 60%;
+	height: 65vh;
+  min-height: 350px;
     text-align: center;
-    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
-}
+   
 .bs-example{
 	margin: 20px;
 }
