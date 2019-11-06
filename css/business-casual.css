@@ -92,42 +92,18 @@ p {
   color: #f8f9fa;
 }
 
-multi-item-carousel{
-  .carousel-inner{
-    > .item{
-      transition: 500ms ease-in-out left;
-    }
-    .active{
-      &.left{
-        left:-33%;
-      }
-      &.right{
-        left:33%;
-      }
-    }
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -33%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-  .carouse-control{
-    &.left, &.right{
-      background-image: none;
-    }
-  }
-}
 
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+	margin: 20px;
+}
 
 
 
