@@ -100,11 +100,14 @@ p {
 }
 .carousel-item{
 	width: auto ;
-  height: auto ;	
+  height: auto ;
+	align: center;
     text-align: center;
    
 .bs-example{
-	margin: 20px;
+	width: auto ;
+  height: auto ;
+	align: center;
 }
 
 
