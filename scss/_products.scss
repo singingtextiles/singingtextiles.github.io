@@ -1,12 +1,17 @@
 .carousel{
+	position: relative;
+	 z-index: 0;
     background: #2f4357;
     margin-top: 20px;
 }
 .carousel-item{
-	position: relative;
-      z-index: 0;
-	height: 65vh;
-  max-width: 60vw;
+	
+	
+     
+	width: auto ;
+  max-width: 100% ;
+  height: auto ;
+  
     text-align: center;
     min-height: 350px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 	
