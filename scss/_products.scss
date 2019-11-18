@@ -1,5 +1,5 @@
 .carousel{
-	position: absolute;
+	position: relative;
 	 z-index: 0;
     background: #2f4357;
     margin-top: 20px;
@@ -9,7 +9,7 @@
 	width: auto ;
   height: auto ;
 		align: center;
-color: rgba(0, 0, 0, 0);
+text-color: rgba(0, 0, 0, 0);
    text-align: center;
     
 }
