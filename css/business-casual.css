@@ -99,7 +99,10 @@ p {
     margin-top: 20px;
 }
 .carousel-item{
-	height: 65vh;
+	width: auto ;
+  max-width: 100% ;
+  height: auto ;
+	
   min-height: 350px;
     text-align: center;
    
