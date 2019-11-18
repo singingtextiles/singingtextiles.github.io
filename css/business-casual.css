@@ -100,10 +100,7 @@ p {
 }
 .carousel-item{
 	width: auto ;
-  max-width: 100% ;
-  height: auto ;
-	
-  min-height: 350px;
+  height: auto ;	
     text-align: center;
    
 .bs-example{
