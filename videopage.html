@@ -56,8 +56,10 @@ body {
 <div class="content">
   
  <button id="myBtn" onclick="myFunction()">Play</button>
-  <onclick="location.href = "https://autodios.github.io/index.html";button id="myBtn" class="float-left submit-button">Enter Site</button>
-</div>
+  
+ 
+ 
+
 
 <script>
 var video = document.getElementById("myVideo");
@@ -73,6 +75,13 @@ function myFunction() {
   }
 }
 </script>
+   <button id="myBtn" class="float-left submit-button" >Enter</button>
+  <script type="text/javascript">
+    document.getElementById("myBtn").onclick = function () {
+        location.href = "https://autodios.github.io/index.html";
+    };
+</script>
+</div>
 
 </body>
 </html>
