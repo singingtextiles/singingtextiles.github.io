@@ -44,6 +44,20 @@ body {
   background: #ddd;
   color: black;
 }
+  #myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn2:hover {
+  background: #ddd;
+  color: yellow;
+}
 </style>
 </head>
 <body>
@@ -70,14 +84,14 @@ function myFunction() {
   }
 }
 </script>
-    
+    <button id="myBtn2" onclick="myFunction()">Enter</button> 
   <script type="text/javascript">
-    document.getElementById("myBtn").onclick = function () {
+    document.getElementById("myBtn2").onclick = function () {
         location.href = "https://autodios.github.io/index.html";
     };
 </script>
   
- <button id="myBtn" onclick="myFunction()">Enter</button>
+
 
 <script>
 
