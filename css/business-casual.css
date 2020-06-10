@@ -312,6 +312,20 @@ header video {
   color: #fff;
   cursor: pointer;
 }
+		#myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+	#myBtn:hover {
+  background: #ddd;
+  color: yellow;
+}
+
 
 #myBtn:hover {
   background: #ddd;
